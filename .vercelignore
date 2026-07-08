@@ -6,5 +6,4 @@
 *.pyo
 *.pyd
 *.ipynb
-
-model.onnx
+best_model.bin
