@@ -25,3 +25,5 @@ package-lock.json
 # Frontend
 node_modules/
 dist/
+
+*.pem
