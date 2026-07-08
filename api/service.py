@@ -1,7 +1,6 @@
 from transformers import AutoTokenizer
 from pathlib import Path
 import onnxruntime as ort
-import torch
 
 ROOT = Path(__file__).parents[1]
 TOKENIZER_PATH = ROOT / "tokenizer"
@@ -36,8 +35,8 @@ class Tagging:
             "attention_mask": attention_mask
         }
 
-        with torch.no_grad():
-            output = self.session.run(None, inputs_onnx)[0]
+        
+        output = self.session.run(None, inputs_onnx)[0]
         pred = output.argmax(1)[0]
     
         word_ids = tokenized.word_ids()
