@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+model.onnx
+best_model.bin
+# Virtual environments
+.venv/
+
+# Build / cache artifacts
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+tsconfig.node.tsbuildinfo
+tsconfig.tsbuildinfo
+package-lock.json
+
+
+# Jupyter
+.jupyter/
+
+# Frontend
+node_modules/
+dist/
