@@ -2,7 +2,7 @@ from __future__ import annotations
 from pathlib import Path
 from fastapi import FastAPI, Form, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from api.service import Tagging
+from service import Tagging
 import os
 import urllib.request
 ROOT = Path(__file__).parents[1]

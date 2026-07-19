@@ -3,7 +3,7 @@ from pathlib import Path
 import onnxruntime as ort
 
 ROOT = Path(__file__).parents[1]
-TOKENIZER_PATH = ROOT / "tokenizer"
+TOKENIZER_PATH = "tokenizer"
 
 
 
