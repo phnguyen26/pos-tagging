@@ -8,7 +8,7 @@
     {
       "source": "/api/(.*)",
       "destination": "https://phnguyencs-pos-tagging.hf.space/api/$1"
-    }
+    },
     {
       "source": "/(.*)",
       "destination": "/"
