@@ -7,7 +7,7 @@
   "rewrites": [
     {
       "source": "/api/(.*)",
-      "destination": "api/main.py"
+      "destination": "https://phnguyencs-pos-tagging.hf.space/$1"
     }
   ]
 }
