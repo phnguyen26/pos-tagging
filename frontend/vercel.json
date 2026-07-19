@@ -7,7 +7,7 @@
   "rewrites": [
     {
       "source": "/api/(.*)",
-      "destination": "https://phnguyencs-pos-tagging.hf.space/$1"
+      "destination": "https://phnguyencs-pos-tagging.hf.space/api/$1"
     }
   ]
 }
